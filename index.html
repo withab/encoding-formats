@@ -1,0 +1,15 @@
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="textDiv"><label for="text">Texte:</label><input id="text" onkeydown="textChanged()"><button id="textbtn" class="regular" onclick="c('text')">Copier</button></div>
+    <div id="binaryDiv"><label for="binary">Binaire:</label><input id="binary" onkeydown="binaryChanged()"><button id="binarybtn" class="regular" onclick="c('binary')">Copier</button></div>
+    <div id="hexDiv"><label for="hex">Hexadécimal:</label><input id="hex" onkeydown="hexaChanged()"><button id="hexbtn" class="regular" onclick="c('hex')">Copier</button></div>
+    <div id="b32Div"><label for="b32">Base32:</label><input id="b32" onkeydown="base32Changed()"><button id="b32btn" class="regular" onclick="c('b32')">Copier</button></div>
+    <div id="b64Div"><label for="b64">Base64:</label><input id="b64" onkeydown="base64Changed()"><button id="b64btn" class="regular" onclick="c('b64')">Copier</button></div>
+</body>
+<script src="algo.js"></script>
+<script src="script.js"></script>
+</html>
